@@ -60,14 +60,16 @@ Enjoy!
 
 Run following labs as follows. 
 
-./setup.sh <aws_account_id> <username>
-./lab2.sh <username> 
+# ./setup.sh <aws_account_id> <username>
+
+
+# ./lab2.sh <username> 
 
 
 To destroy the stack, follow the below commands
-cd < your stack folder > 
-source .venv/activate/bin/
-cdk destroy
+# cd < your stack folder > 
+# source .venv/activate/bin/
+# cdk destroy
 
 
 
