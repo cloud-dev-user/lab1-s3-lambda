@@ -20,7 +20,7 @@ npm install -g aws-cdk
 echo " cdk version is " 
 cdk --version
 which cdk
-export PATH =$PATH:~/.nvm/versions/node/v22.19.0/bin/node:~/.nvm/versions/node/v22.19.0/bin/npm:~/.nvm/versions/node/v22.19.0/bin/cdk
+export PATH=$PATH:~/.nvm/versions/node/v22.19.0/bin/node:~/.nvm/versions/node/v22.19.0/bin/npm:~/.nvm/versions/node/v22.19.0/bin/cdk
 echo "PATH=$PATH" >> ~/.bash_profile
 . ~/.bash_profile
 echo $PATH
